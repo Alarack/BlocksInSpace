@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: 14ebd867206bd274495d6d50ca96eb72
+timeCreated: 1451564042
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Blue_Top
+    21300002: Blue_Middle
+    21300004: Blue_Bottom
+    21300006: Red_Top
+    21300008: Red_Bottom
+    21300010: Red_Middle
+    21300012: Yellow_Top
+    21300014: Yellow_Bottom
+    21300016: Yellow_Middle
+    21300018: Green_Bottom
+    21300020: Green_Middle
+    21300022: Green_Top
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Blue_Top
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 371
+        width: 52
+        height: 29
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Blue_Middle
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 150
+        width: 52
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Blue_Bottom
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 72
+        width: 52
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Red_Top
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 371
+        width: 52
+        height: 29
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Red_Bottom
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 72
+        width: 52
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Red_Middle
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 150
+        width: 52
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Yellow_Top
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 371
+        width: 52
+        height: 29
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Yellow_Bottom
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 72
+        width: 52
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Yellow_Middle
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 150
+        width: 52
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Green_Bottom
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 72
+        width: 52
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Green_Middle
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 150
+        width: 52
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Green_Top
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 371
+        width: 52
+        height: 29
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

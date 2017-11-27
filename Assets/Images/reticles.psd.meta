@@ -1,0 +1,133 @@
+fileFormatVersion: 2
+guid: c6618564868306e418a9765fe8d709d0
+timeCreated: 1449448564
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: DoubleGreenShev
+    21300002: DoubleRedShev
+    21300004: HalfThinWhiteCircle
+    21300006: LShevWhite
+    21300008: LShevClear
+    21300010: BasicCrossCircleBlack
+    21300012: BasicCrossCircleWhite
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: DoubleGreenShev
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 353
+        width: 70
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DoubleRedShev
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 353
+        width: 70
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HalfThinWhiteCircle
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 63
+        width: 340
+        height: 340
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LShevWhite
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1073
+        width: 54
+        height: 53
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LShevClear
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1040
+        width: 87
+        height: 86
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BasicCrossCircleBlack
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 534
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BasicCrossCircleWhite
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 0
+        width: 468
+        height: 468
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

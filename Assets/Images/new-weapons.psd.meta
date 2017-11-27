@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 60fe21df70692f54dabdbf67ee2537ff
+timeCreated: 1462830522
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Rocket2_Green
+    21300002: Rocket2_Red
+    21300004: Rocket2_Blue
+    21300006: Rocket2_Yellow
+    21300008: WeaponMount
+    21300010: Launcher2_Green
+    21300012: Launcher2_Red
+    21300014: Launcher2_Blue
+    21300016: Launcher2_Yellow
+    21300018: LauncherTri_Green
+    21300020: WeaponMount_Red
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 300
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Rocket2_Green
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1297
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 52}
+        - {x: 11.5, y: 79}
+        - {x: -19.5, y: 79}
+        - {x: -25.5, y: 77}
+        - {x: -33.5, y: 24}
+        - {x: -33.5, y: -61}
+        - {x: -30.5, y: -67}
+        - {x: -15.5, y: -79}
+        - {x: 16.5, y: -79}
+        - {x: 32.5, y: -74}
+        - {x: 33.5, y: -65}
+        - {x: 33.5, y: 1}
+        - {x: 26.5, y: 45}
+    - name: Rocket2_Red
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1297
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 52}
+        - {x: 11.5, y: 79}
+        - {x: -19.5, y: 79}
+        - {x: -25.5, y: 77}
+        - {x: -33.5, y: 24}
+        - {x: -33.5, y: -61}
+        - {x: -30.5, y: -67}
+        - {x: -15.5, y: -79}
+        - {x: 16.5, y: -79}
+        - {x: 32.5, y: -74}
+        - {x: 33.5, y: -65}
+        - {x: 33.5, y: 1}
+        - {x: 26.5, y: 45}
+    - name: Rocket2_Blue
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1297
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 52}
+        - {x: 11.5, y: 79}
+        - {x: -19.5, y: 79}
+        - {x: -25.5, y: 77}
+        - {x: -33.5, y: 24}
+        - {x: -33.5, y: -61}
+        - {x: -30.5, y: -67}
+        - {x: -15.5, y: -79}
+        - {x: 16.5, y: -79}
+        - {x: 32.5, y: -74}
+        - {x: 33.5, y: -65}
+        - {x: 33.5, y: 1}
+        - {x: 26.5, y: 45}
+    - name: Rocket2_Yellow
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1297
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 52}
+        - {x: 11.5, y: 79}
+        - {x: -19.5, y: 79}
+        - {x: -25.5, y: 77}
+        - {x: -33.5, y: 24}
+        - {x: -33.5, y: -61}
+        - {x: -30.5, y: -67}
+        - {x: -15.5, y: -79}
+        - {x: 16.5, y: -79}
+        - {x: 32.5, y: -74}
+        - {x: 33.5, y: -65}
+        - {x: 33.5, y: 1}
+        - {x: 26.5, y: 45}
+    - name: WeaponMount
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 1175
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 138, y: -79}
+        - {x: 150, y: -48}
+        - {x: 154, y: -31}
+        - {x: 154, y: 30}
+        - {x: 151, y: 44}
+        - {x: 135, y: 81}
+        - {x: 118, y: 105}
+        - {x: 82, y: 136}
+        - {x: 59, y: 146}
+        - {x: 30, y: 154}
+        - {x: -34, y: 154}
+        - {x: -49, y: 152}
+        - {x: -98, y: 125}
+        - {x: -120, y: 102}
+        - {x: -137, y: 78}
+        - {x: -144, y: 61}
+        - {x: -150, y: 48}
+        - {x: -154, y: 32}
+        - {x: -154, y: -36}
+        - {x: -146, y: -60}
+        - {x: -127, y: -96}
+        - {x: -96, y: -126}
+        - {x: -80, y: -136}
+        - {x: -60, y: -146}
+        - {x: -36, y: -154}
+        - {x: 32, y: -154}
+        - {x: 42, y: -152}
+        - {x: 79, y: -137}
+        - {x: 103, y: -121}
+    - name: Launcher2_Green
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1056
+        width: 128
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: 74.5}
+        - {x: 6, y: 103.5}
+        - {x: -15, y: 103.5}
+        - {x: -52, y: 65.5}
+        - {x: -64, y: 35.5}
+        - {x: -64, y: -103.5}
+        - {x: 64, y: -103.5}
+        - {x: 64, y: 42.5}
+        - {x: 56, y: 62.5}
+    - name: Launcher2_Red
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1056
+        width: 128
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47, y: 74.5}
+        - {x: 4, y: 103.5}
+        - {x: -21, y: 103.5}
+        - {x: -64, y: 72.5}
+        - {x: -64, y: -103.5}
+        - {x: 62, y: -103.5}
+        - {x: 64, y: -100.5}
+        - {x: 64, y: 44.5}
+        - {x: 51, y: 69.5}
+    - name: Launcher2_Blue
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1056
+        width: 128
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47, y: 74.5}
+        - {x: 4, y: 103.5}
+        - {x: -21, y: 103.5}
+        - {x: -64, y: 72.5}
+        - {x: -64, y: -103.5}
+        - {x: 62, y: -103.5}
+        - {x: 64, y: -100.5}
+        - {x: 64, y: 44.5}
+        - {x: 51, y: 69.5}
+    - name: Launcher2_Yellow
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1056
+        width: 128
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47, y: 74.5}
+        - {x: 4, y: 103.5}
+        - {x: -21, y: 103.5}
+        - {x: -64, y: 72.5}
+        - {x: -64, y: -103.5}
+        - {x: 62, y: -103.5}
+        - {x: 64, y: -100.5}
+        - {x: 64, y: 44.5}
+        - {x: 51, y: 69.5}
+    - name: LauncherTri_Green
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 818
+        width: 224
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 81, y: 96.5}
+        - {x: 68, y: 107.5}
+        - {x: -10, y: 107.5}
+        - {x: -28, y: 87.5}
+        - {x: -51, y: 107.5}
+        - {x: -71, y: 107.5}
+        - {x: -81, y: 97.5}
+        - {x: -103, y: 64.5}
+        - {x: -112, y: 44.5}
+        - {x: -112, y: -106.5}
+        - {x: -110, y: -107.5}
+        - {x: 111, y: -107.5}
+        - {x: 112, y: -106.5}
+        - {x: 112, y: 46.5}
+        - {x: 102, y: 65.5}
+    - name: WeaponMount_Red
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 843
+        width: 312
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 132, y: -92}
+        - {x: 149, y: -57}
+        - {x: 155, y: -33}
+        - {x: 156, y: -30}
+        - {x: 156, y: 30}
+        - {x: 152, y: 48}
+        - {x: 138, y: 80}
+        - {x: 124, y: 100}
+        - {x: 100, y: 123}
+        - {x: 80, y: 137}
+        - {x: 48, y: 152}
+        - {x: 28, y: 156}
+        - {x: -28, y: 156}
+        - {x: -49, y: 152}
+        - {x: -73, y: 142}
+        - {x: -99, y: 125}
+        - {x: -120, y: 105}
+        - {x: -138, y: 83}
+        - {x: -155, y: 42}
+        - {x: -156, y: 34}
+        - {x: -156, y: -32}
+        - {x: -151, y: -59}
+        - {x: -127, y: -99}
+        - {x: -103, y: -122}
+        - {x: -80, y: -140}
+        - {x: -40, y: -156}
+        - {x: 31, y: -156}
+        - {x: 49, y: -152}
+        - {x: 67, y: -145}
+        - {x: 100, y: -126}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

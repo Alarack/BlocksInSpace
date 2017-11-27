@@ -1,0 +1,21 @@
+Folder,Files,LOC,SLOC-P,SLOC-L,MVG,BLOC,C&SLOC,CLOC,CWORD,HCLOC,HCWORD
+Total,122,7833,5731,4064,767,1718,15,384,1625,0,0
+C:\Users\Alarack\Documents\Match 3 Tetris Shooter\Match 3 Tetris Shooter\Assets\Scripts,122,7833,5731,4064,767,1718,15,384,1625,0,0
+C:\Users\Alarack\Documents\Match 3 Tetris Shooter\Match 3 Tetris Shooter\Assets\Scripts\Defenses,3,190,136,97,22,43,0,11,52,0,0
+C:\Users\Alarack\Documents\Match 3 Tetris Shooter\Match 3 Tetris Shooter\Assets\Scripts\Enemies,5,247,194,140,25,42,1,11,172,0,0
+C:\Users\Alarack\Documents\Match 3 Tetris Shooter\Match 3 Tetris Shooter\Assets\Scripts\Entities,6,593,458,311,75,118,2,17,69,0,0
+C:\Users\Alarack\Documents\Match 3 Tetris Shooter\Match 3 Tetris Shooter\Assets\Scripts\Health,3,237,179,127,24,52,0,6,27,0,0
+C:\Users\Alarack\Documents\Match 3 Tetris Shooter\Match 3 Tetris Shooter\Assets\Scripts\Interfaces,1,10,4,3,0,6,0,0,0,0,0
+C:\Users\Alarack\Documents\Match 3 Tetris Shooter\Match 3 Tetris Shooter\Assets\Scripts\Loot,2,146,113,81,16,32,3,1,38,0,0
+C:\Users\Alarack\Documents\Match 3 Tetris Shooter\Match 3 Tetris Shooter\Assets\Scripts\Misc,14,805,609,430,87,173,0,23,106,0,0
+C:\Users\Alarack\Documents\Match 3 Tetris Shooter\Match 3 Tetris Shooter\Assets\Scripts\Movement,16,1063,760,521,108,273,2,30,121,0,0
+C:\Users\Alarack\Documents\Match 3 Tetris Shooter\Match 3 Tetris Shooter\Assets\Scripts\Movement\SpecalMovement,2,136,84,58,10,40,0,12,29,0,0
+C:\Users\Alarack\Documents\Match 3 Tetris Shooter\Match 3 Tetris Shooter\Assets\Scripts\PowerUps,8,187,143,104,12,41,0,3,28,0,0
+C:\Users\Alarack\Documents\Match 3 Tetris Shooter\Match 3 Tetris Shooter\Assets\Scripts\Projectiles,9,632,418,290,52,144,1,70,246,0,0
+C:\Users\Alarack\Documents\Match 3 Tetris Shooter\Match 3 Tetris Shooter\Assets\Scripts\Spawners,4,611,463,337,65,126,2,22,78,0,0
+C:\Users\Alarack\Documents\Match 3 Tetris Shooter\Match 3 Tetris Shooter\Assets\Scripts\Upgrades,13,651,501,371,49,137,1,13,109,0,0
+C:\Users\Alarack\Documents\Match 3 Tetris Shooter\Match 3 Tetris Shooter\Assets\Scripts\Weapons,17,1157,830,600,104,252,0,75,274,0,0
+C:\Users\Alarack\Documents\Match 3 Tetris Shooter\Match 3 Tetris Shooter\Assets\Scripts\Weapons\HelperScripts,2,73,53,35,8,20,0,0,0,0,0
+C:\Users\Alarack\Documents\Match 3 Tetris Shooter\Match 3 Tetris Shooter\Assets\Scripts\__Deprecated,5,352,203,139,23,76,0,73,200,0,0
+C:\Users\Alarack\Documents\Match 3 Tetris Shooter\Match 3 Tetris Shooter\Assets\Scripts\__Tools,7,533,395,273,76,124,0,14,38,0,0
+C:\Users\Alarack\Documents\Match 3 Tetris Shooter\Match 3 Tetris Shooter\Assets\Scripts\__UI,3,92,69,50,7,20,0,3,12,0,0

@@ -1,0 +1,584 @@
+fileFormatVersion: 2
+guid: 76d1eaba262cfe0448b67f991179ed8b
+timeCreated: 1468455927
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Yellow_Full
+    21300002: Green_Full
+    21300004: Red_Full
+    21300006: BlasterShot_Red
+    21300008: TurretShot_Red
+    21300010: Shotpellet_Red
+    21300012: Rocket_Red
+    21300014: Turret_Red
+    21300016: Blaster_Red
+    21300018: RocketLauncher_Red
+    21300020: Blaster_Green
+    21300022: Turret_Green
+    21300024: RocketLauncher_Green
+    21300026: Rocket_Green
+    21300028: Shotpellet_Green
+    21300030: TurretShot_Green
+    21300032: BlasterShot_Green
+    21300034: Blaster_Blue
+    21300036: Turret_Blue
+    21300038: RocketLauncher_Blue
+    21300040: Rocket_Blue
+    21300042: Shotpellet_Blue
+    21300044: TurretShot_Blue
+    21300046: BlasterShot_Blue
+    21300048: Blaster_Yellow
+    21300050: TurretYellow
+    21300052: RocketLauncher_Yellow
+    21300054: Rocket_Yellow
+    21300056: Shotpellet_Yellow
+    21300058: TurretShot_Yellow
+    21300060: BlasterShot_Yellow
+    21300062: ShotGun_Red
+    21300064: ShotGun_Green
+    21300066: ShotGun_Blue
+    21300068: ShotGun_Yellow
+    21300070: Multi_Box
+    21300072: Blue_Full
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Yellow_Full
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 28}
+        - {x: 28, y: 32}
+    - name: Green_Full
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 28}
+        - {x: 28, y: 32}
+    - name: Red_Full
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 28}
+        - {x: 28, y: 32}
+    - name: BlasterShot_Red
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 138
+        width: 11
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: TurretShot_Red
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 140
+        width: 7
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.69}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shotpellet_Red
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 144
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rocket_Red
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 135
+        width: 7
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Turret_Red
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 78
+        width: 24
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Blaster_Red
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 71
+        width: 62
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 35.28}
+        - {x: -31, y: 19.279999}
+        - {x: -31, y: -12.720001}
+        - {x: 30, y: -12.720001}
+        - {x: 31, y: -11.720001}
+        - {x: 31, y: 33.28}
+        - {x: 22, y: 35.28}
+    - name: RocketLauncher_Red
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 77
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Blaster_Green
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 198
+        width: 62
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 35.28}
+        - {x: -31, y: 19.279999}
+        - {x: -31, y: -12.720001}
+        - {x: 30, y: -12.720001}
+        - {x: 31, y: -11.720001}
+        - {x: 31, y: 33.28}
+        - {x: 22, y: 35.28}
+    - name: Turret_Green
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 202
+        width: 24
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: RocketLauncher_Green
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 204
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rocket_Green
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 270
+        width: 7
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shotpellet_Green
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 279
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: TurretShot_Green
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 275
+        width: 7
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.69}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BlasterShot_Green
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 274
+        width: 11
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Blaster_Blue
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 328
+        width: 62
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 35.28}
+        - {x: -31, y: 19.279999}
+        - {x: -31, y: -12.720001}
+        - {x: 30, y: -12.720001}
+        - {x: 31, y: -11.720001}
+        - {x: 31, y: 33.28}
+        - {x: 22, y: 35.28}
+    - name: Turret_Blue
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 332
+        width: 24
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: RocketLauncher_Blue
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 334
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rocket_Blue
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 394
+        width: 7
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shotpellet_Blue
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 403
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: TurretShot_Blue
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 399
+        width: 7
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.69}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BlasterShot_Blue
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 398
+        width: 11
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Blaster_Yellow
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 461
+        width: 62
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 35.28}
+        - {x: -31, y: 19.279999}
+        - {x: -31, y: -12.720001}
+        - {x: 30, y: -12.720001}
+        - {x: 31, y: -11.720001}
+        - {x: 31, y: 33.28}
+        - {x: 22, y: 35.28}
+    - name: TurretYellow
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 462
+        width: 24
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: RocketLauncher_Yellow
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 464
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rocket_Yellow
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 532
+        width: 7
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shotpellet_Yellow
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 541
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: TurretShot_Yellow
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 537
+        width: 7
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.69}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BlasterShot_Yellow
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 535
+        width: 11
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ShotGun_Red
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 76
+        width: 58
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 27.720001}
+        - {x: -7, y: 26.720001}
+        - {x: -10, y: 16.720001}
+        - {x: -29, y: 8.720001}
+        - {x: -29, y: -8.279999}
+        - {x: 29, y: -8.279999}
+        - {x: 29, y: 11.720001}
+        - {x: 10, y: 27.720001}
+    - name: ShotGun_Green
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 203
+        width: 58
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 28.490005}
+        - {x: -29, y: 17.490005}
+        - {x: -29, y: -8.5099945}
+        - {x: 29, y: -8.5099945}
+        - {x: 29, y: 15.4900055}
+        - {x: 10, y: 28.490005}
+    - name: ShotGun_Blue
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 333
+        width: 58
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 27.720001}
+        - {x: -7, y: 26.720001}
+        - {x: -10, y: 16.720001}
+        - {x: -29, y: 8.720001}
+        - {x: -29, y: -8.279999}
+        - {x: 29, y: -8.279999}
+        - {x: 29, y: 11.720001}
+        - {x: 10, y: 27.720001}
+    - name: ShotGun_Yellow
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 463
+        width: 58
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 27.720001}
+        - {x: -7, y: 26.720001}
+        - {x: -10, y: 16.720001}
+        - {x: -29, y: 8.720001}
+        - {x: -29, y: -8.279999}
+        - {x: 29, y: -8.279999}
+        - {x: 29, y: 11.720001}
+        - {x: 10, y: 27.720001}
+    - name: Multi_Box
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 28}
+        - {x: 28, y: 32}
+    - name: Blue_Full
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 28}
+        - {x: 28, y: 32}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
