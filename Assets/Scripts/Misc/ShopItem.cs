@@ -10,6 +10,10 @@ public class ShopItem : MonoBehaviour {
     public GameObject itemIcon;
     public string itemName;
 
+    [Header("Sounds")]
+    public string collectionSoundName;
+    public float soundVolume = 0.025f;
+
     private GameObject shopMenu;
     private Text shopMenuText;
     private EntityPlayer player;
@@ -48,6 +52,11 @@ public class ShopItem : MonoBehaviour {
         if (item != null) {
             //GameObject activeItem = Instantiate(item, Vector3.zero, Quaternion.identity) as GameObject;
         }
+
+        if (collectionSoundName != "") {
+            SoundManager.PlaySound(collectionSoundName, soundVolume);
+        }
+
 
         if (upgrades.Length > 0) {
             foreach (Upgrade upgrade in upgrades) {

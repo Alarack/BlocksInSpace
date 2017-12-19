@@ -8,6 +8,10 @@ public abstract class PowerUp : MonoBehaviour {
     public float duration;
     public bool forever;
 
+    [Header("Sounds")]
+    public string collectionSoundName;
+    public float soundVolume = 0.025f;
+
     protected Weapon[] weapons;
     protected EntityPlayer player;
 
@@ -26,6 +30,11 @@ public abstract class PowerUp : MonoBehaviour {
 
     protected virtual void OnTriggerEnter2D(Collider2D other) {
         if (other.tag == "Player") {
+
+            if (collectionSoundName != "") {
+                SoundManager.PlaySound(collectionSoundName, soundVolume);
+            }
+
             gameObject.tag = other.gameObject.tag;
             SpriteRenderer mySprite = GetComponent<SpriteRenderer>();
             mySprite.color = new Color(mySprite.color.r, mySprite.color.g, mySprite.color.b, 0f);

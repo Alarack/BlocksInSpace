@@ -8,6 +8,10 @@ public class ColorShipModulePickup : MonoBehaviour {
     public GameObject module;
     public Sprite[] sprites;
 
+    [Header("Sounds")]
+    public string collectionSoundName;
+    public float soundVolume = 0.025f;
+
     private EntityPlayer player;
     private SpriteRenderer mySprite;
 
@@ -28,6 +32,11 @@ public class ColorShipModulePickup : MonoBehaviour {
     {
         if (other.gameObject.tag == "Feeler" && other.transform.parent.gameObject.tag == "Player")
         {
+
+            if (collectionSoundName != "") {
+                SoundManager.PlaySound(collectionSoundName, soundVolume);
+            }
+
             float offsetX = other.transform.position.x;
             float offsetY = other.transform.position.y;
             Vector2 targetPos = new Vector2(offsetX, offsetY);
