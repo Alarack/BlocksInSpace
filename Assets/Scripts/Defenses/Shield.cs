@@ -4,6 +4,9 @@ using System.Collections;
 public class Shield : MonoBehaviour {
 
     public LayerMask mask;
+    [Header("Sounds")]
+    public string impactSoundName;
+    public float soundVolume = 0.025f;
 
     protected Vector2 surfaceNormal;
 
@@ -66,6 +69,12 @@ public class Shield : MonoBehaviour {
     }
 
     protected virtual void ShieldEffect(Collider2D other) {
+
+        if (impactSoundName != "") {
+            SoundManager.PlaySound(impactSoundName, soundVolume);
+        }
+
+
         if (other.gameObject.layer == 9 && CheckTag() || other.gameObject.layer == 8 && !CheckTag()) {
             ProjectileCollisionEffect(other);
             return;

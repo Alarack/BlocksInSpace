@@ -51,6 +51,7 @@ public class Weapon : MonoBehaviour {
     public Sprite[] sprites;
     [Header("Sounds")]
     public string fireSoundName;
+    public float soundVolume = 0.025f;
 
     protected EnumList.Colors color;
     protected SpriteRenderer mySprite;
@@ -147,7 +148,7 @@ public class Weapon : MonoBehaviour {
 
 
         if(fireSoundName != "") {
-            SoundManager.PlaySound(fireSoundName, 0.025f);
+            SoundManager.PlaySound(fireSoundName, soundVolume);
         }
 
         //if(origin == null) {

@@ -8,7 +8,9 @@ public class Projectile : MonoBehaviour {
     private const int INFINITE_PIERCE = -1;
 
     public OnKill onKill;
+    [Header("Sounds")]
     public string impactSound;
+    public float soundVolume = 0.025f;
 
     public enum ProjectileType {
         Blaster,
@@ -213,7 +215,7 @@ public class Projectile : MonoBehaviour {
 
 
             if (impactSound != "") {
-                SoundManager.PlaySound(impactSound, 0.025f);
+                SoundManager.PlaySound(impactSound, soundVolume);
             }
 
             Health otherHealth = other.GetComponent<Health>();
