@@ -50,6 +50,7 @@ public class Weapon : MonoBehaviour {
     public bool autoSpriteColor = false;
     public Sprite[] sprites;
     [Header("Sounds")]
+    public SoundEntry fireSound;
     public string fireSoundName;
     public float soundVolume = 0.025f;
 
@@ -147,9 +148,13 @@ public class Weapon : MonoBehaviour {
         Transform tmpOrigin = myShotOrigin;
 
 
-        if(fireSoundName != "") {
-            SoundManager.PlaySound(fireSoundName, soundVolume);
+        if(fireSound != null) {
+            fireSound.PlaySound();
         }
+
+        //if(fireSoundName != "") {
+        //    SoundManager.PlaySound(fireSoundName, soundVolume);
+        //}
 
         //if(origin == null) {
         //    tmpOrigin = myShotOrigin;

@@ -9,7 +9,7 @@ public class SoundManager : MonoBehaviour {
     public AudioSource sfxSource;
     //public AudioSource musicSource;
     [Header("Mixer Snapshots")]
-    
+
     public List<AudioSnapShotHolder> snapshots = new List<AudioSnapShotHolder>();
 
     public AudioMixerSnapshot CurrentSnapshot { get; private set; }
@@ -36,7 +36,7 @@ public class SoundManager : MonoBehaviour {
 
     public static void SwapMusic(string targetMusic, float time = 1f, bool previous = false) {
         if (previous) {
-            if(soundManager.PreviousSnapshot != null) {
+            if (soundManager.PreviousSnapshot != null) {
                 soundManager.PreviousSnapshot.TransitionTo(time);
 
                 AudioMixerSnapshot tempPrev = soundManager.PreviousSnapshot;
@@ -50,15 +50,15 @@ public class SoundManager : MonoBehaviour {
 
         AudioMixerSnapshot targetShot = null;
 
-        for(int i = 0; i < soundManager.snapshots.Count; i++) {
-            if(soundManager.snapshots[i].audioName == targetMusic) {
+        for (int i = 0; i < soundManager.snapshots.Count; i++) {
+            if (soundManager.snapshots[i].audioName == targetMusic) {
                 targetShot = soundManager.snapshots[i].snapshot;
-                
+
                 break;
             }
         }
 
-        if(targetShot != null) {
+        if (targetShot != null) {
             targetShot.TransitionTo(time);
             soundManager.PreviousSnapshot = soundManager.CurrentSnapshot;
             soundManager.CurrentSnapshot = targetShot;
@@ -69,7 +69,7 @@ public class SoundManager : MonoBehaviour {
     public static void RestartMusic(string targetMusic) {
         AudioSnapShotHolder target = GetSnapshotHolder(targetMusic);
 
-        if(target != null) {
+        if (target != null) {
             target.source.Stop();
             target.source.Play();
         }
@@ -77,7 +77,7 @@ public class SoundManager : MonoBehaviour {
     }
 
 
-    public static void PlaySound(string soundName, float volume = 1f, bool variance = true) {
+    public static void PlaySound(string soundName, float volume = 1f, bool variance = true, float pitchShift = 0f) {
         AudioClip targetClip = null;
 
         for (int i = 0; i < soundManager.sounds.Count; i++) {
@@ -87,16 +87,31 @@ public class SoundManager : MonoBehaviour {
             }
         }
         if (targetClip != null) {
-            if (variance)
+            soundManager.sfxSource.pitch = 1f;
+
+            if (variance && pitchShift <= 0) {
                 RandomizeSfx(soundManager.sfxSource).PlayOneShot(targetClip, volume);
-            else
-                soundManager.sfxSource.PlayOneShot(targetClip, volume);
+                return;
+            }
+
+            if (!variance && pitchShift > 0f) {
+                AlterPitch(soundManager.sfxSource, pitchShift).PlayOneShot(targetClip, volume);
+                return;
+            }
+
+            soundManager.sfxSource.PlayOneShot(targetClip, volume);
         }
     }
 
     private static AudioSource RandomizeSfx(AudioSource source) {
         float randomPitch = Random.Range(lowPitchRange, highPitchRange);
         source.pitch = randomPitch;
+        return source;
+    }
+
+    private static AudioSource AlterPitch(AudioSource source, float pitchMod) {
+        source.pitch += pitchMod;
+
         return source;
     }
 

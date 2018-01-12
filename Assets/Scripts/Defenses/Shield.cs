@@ -7,6 +7,8 @@ public class Shield : MonoBehaviour {
     [Header("Sounds")]
     public string impactSoundName;
     public float soundVolume = 0.025f;
+    [Space(10)]
+    public SoundEntry impactSound;
 
     protected Vector2 surfaceNormal;
 
@@ -70,9 +72,12 @@ public class Shield : MonoBehaviour {
 
     protected virtual void ShieldEffect(Collider2D other) {
 
-        if (impactSoundName != "") {
-            SoundManager.PlaySound(impactSoundName, soundVolume);
-        }
+        if (impactSound != null)
+            impactSound.PlaySound();
+
+        //if (impactSoundName != "") {
+        //    SoundManager.PlaySound(impactSoundName, soundVolume);
+        //}
 
 
         if (other.gameObject.layer == 9 && CheckTag() || other.gameObject.layer == 8 && !CheckTag()) {

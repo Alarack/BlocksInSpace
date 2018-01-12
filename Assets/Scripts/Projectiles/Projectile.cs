@@ -9,8 +9,12 @@ public class Projectile : MonoBehaviour {
 
     public OnKill onKill;
     [Header("Sounds")]
-    public string impactSound;
+    public string impactSoundName;
     public float soundVolume = 0.025f;
+    [Space(10)]
+    public SoundEntry impactSound;
+    [Header("Sub Projectile Sounds")]
+    public SoundEntry subProjectileFireSound;
 
     public enum ProjectileType {
         Blaster,
@@ -171,6 +175,10 @@ public class Projectile : MonoBehaviour {
             Destroy(explosion, 0.55f);
         }
 
+        if (subProjectileFireSound != null)
+            subProjectileFireSound.PlaySound();
+
+
         GameObject activeSubProjectile = Instantiate(childProjectile, transform.position, transform.rotation) as GameObject;
         Projectile subProjectileScript = activeSubProjectile.GetComponent<Projectile>();
 
@@ -213,10 +221,14 @@ public class Projectile : MonoBehaviour {
     protected virtual void OnTriggerEnter2D(Collider2D other) {
         if (other.tag == "Player" || other.tag == "Enemy" || other.tag == "Drone") {
 
+            if (impactSound != null)
+                impactSound.PlaySound();
 
-            if (impactSound != "") {
-                SoundManager.PlaySound(impactSound, soundVolume);
-            }
+
+            //if (impactSound != "") {
+            //    SoundManager.PlaySound(impactSound, soundVolume);
+            //}
+
 
             Health otherHealth = other.GetComponent<Health>();
 

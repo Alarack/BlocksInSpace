@@ -13,6 +13,8 @@ public class ShopItem : MonoBehaviour {
     [Header("Sounds")]
     public string collectionSoundName;
     public float soundVolume = 0.025f;
+    [Space(10)]
+    public SoundEntry collectionSound;
 
     private GameObject shopMenu;
     private Text shopMenuText;
@@ -53,9 +55,12 @@ public class ShopItem : MonoBehaviour {
             //GameObject activeItem = Instantiate(item, Vector3.zero, Quaternion.identity) as GameObject;
         }
 
-        if (collectionSoundName != "") {
-            SoundManager.PlaySound(collectionSoundName, soundVolume);
-        }
+        if (collectionSound != null)
+            collectionSound.PlaySound();
+
+        //if (collectionSoundName != "") {
+        //    SoundManager.PlaySound(collectionSoundName, soundVolume);
+        //}
 
 
         if (upgrades.Length > 0) {

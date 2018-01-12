@@ -11,6 +11,8 @@ public class ColorShipModulePickup : MonoBehaviour {
     [Header("Sounds")]
     public string collectionSoundName;
     public float soundVolume = 0.025f;
+    [Space(10)]
+    public SoundEntry collectionSound;
 
     private EntityPlayer player;
     private SpriteRenderer mySprite;
@@ -33,9 +35,12 @@ public class ColorShipModulePickup : MonoBehaviour {
         if (other.gameObject.tag == "Feeler" && other.transform.parent.gameObject.tag == "Player")
         {
 
-            if (collectionSoundName != "") {
-                SoundManager.PlaySound(collectionSoundName, soundVolume);
-            }
+            if (collectionSound != null)
+                collectionSound.PlaySound();
+
+            //if (collectionSoundName != "") {
+            //    SoundManager.PlaySound(collectionSoundName, soundVolume);
+            //}
 
             float offsetX = other.transform.position.x;
             float offsetY = other.transform.position.y;
