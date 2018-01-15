@@ -51,6 +51,7 @@ public class Weapon : MonoBehaviour {
     public Sprite[] sprites;
     [Header("Sounds")]
     public SoundEntry fireSound;
+    [Header("Deprecated Sound stuff")]
     public string fireSoundName;
     public float soundVolume = 0.025f;
 

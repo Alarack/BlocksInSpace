@@ -78,29 +78,43 @@ public class SoundManager : MonoBehaviour {
 
 
     public static void PlaySound(string soundName, float volume = 1f, bool variance = true, float pitchShift = 0f) {
-        AudioClip targetClip = null;
+        AudioClip targetClip = GetClip(soundName);
 
-        for (int i = 0; i < soundManager.sounds.Count; i++) {
-            if (soundManager.sounds[i].soundName == soundName) {
-                targetClip = soundManager.sounds[i].clip;
-                break;
-            }
-        }
+        //for (int i = 0; i < soundManager.sounds.Count; i++) {
+        //    if (soundManager.sounds[i].soundName == soundName) {
+        //        targetClip = soundManager.sounds[i].clip;
+        //        break;
+        //    }
+        //}
         if (targetClip != null) {
-            soundManager.sfxSource.pitch = 1f;
+            //soundManager.sfxSource.pitch = 1f;
 
-            if (variance && pitchShift <= 0) {
+            if (variance && pitchShift == 0) {
                 RandomizeSfx(soundManager.sfxSource).PlayOneShot(targetClip, volume);
                 return;
             }
 
-            if (!variance && pitchShift > 0f) {
+            if (!variance && pitchShift != 0f) {
                 AlterPitch(soundManager.sfxSource, pitchShift).PlayOneShot(targetClip, volume);
                 return;
             }
 
             soundManager.sfxSource.PlayOneShot(targetClip, volume);
         }
+    }
+
+    private static AudioClip GetClip(string clipName) {
+        AudioClip targetClip = null;
+
+        for (int i = 0; i < soundManager.sounds.Count; i++) {
+            if (soundManager.sounds[i].soundName == clipName) {
+                targetClip = soundManager.sounds[i].clip;
+                break;
+            }
+        }
+
+
+        return targetClip;
     }
 
     private static AudioSource RandomizeSfx(AudioSource source) {
@@ -110,7 +124,15 @@ public class SoundManager : MonoBehaviour {
     }
 
     private static AudioSource AlterPitch(AudioSource source, float pitchMod) {
+        source.pitch = 1f;
+
+
         source.pitch += pitchMod;
+        //float p = source.pitch;
+
+        //p += pitchMod;
+
+        //source.pitch = p;
 
         return source;
     }
