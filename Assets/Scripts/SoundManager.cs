@@ -7,6 +7,7 @@ public class SoundManager : MonoBehaviour {
 
     public static SoundManager soundManager;
     public AudioSource sfxSource;
+    public AudioSource loopedSource;
     //public AudioSource musicSource;
     [Header("Mixer Snapshots")]
 
@@ -77,8 +78,14 @@ public class SoundManager : MonoBehaviour {
     }
 
 
-    public static void PlaySound(string soundName, float volume = 1f, bool variance = true, float pitchShift = 0f) {
+    public static void PlaySound(string soundName, float volume = 1f, bool variance = true, float pitchShift = 0f, bool looped = false) {
         AudioClip targetClip = GetClip(soundName);
+
+
+        if (looped) {
+            PlayLoopedSound(targetClip, volume);
+            return;
+        }
 
         //for (int i = 0; i < soundManager.sounds.Count; i++) {
         //    if (soundManager.sounds[i].soundName == soundName) {
@@ -101,6 +108,18 @@ public class SoundManager : MonoBehaviour {
 
             soundManager.sfxSource.PlayOneShot(targetClip, volume);
         }
+    }
+
+    public static void PlayLoopedSound(AudioClip targetClip, float volume) {
+        soundManager.loopedSource.PlayOneShot(targetClip, volume);
+    }
+
+    public static void StopLoopedSound() {
+        soundManager.loopedSource.Stop();
+    }
+
+    public static bool IsLoopedSoundPlaying() {
+        return soundManager.loopedSource.isPlaying;
     }
 
     private static AudioClip GetClip(string clipName) {

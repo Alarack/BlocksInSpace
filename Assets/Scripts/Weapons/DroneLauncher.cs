@@ -52,7 +52,11 @@ public class DroneLauncher : Weapon {
     void CreateDrone() {
         GameObject activeDrone = Instantiate(weaponSpawn, myShotOrigin.transform.position, myShotOrigin.transform.rotation) as GameObject;
 
-        if(parentEntity != null)
+        if (fireSound != null) {
+            fireSound.PlaySound();
+        }
+
+        if (parentEntity != null)
             activeDrone.transform.localScale *= (shotScale * parentEntity.weaponShotScaleMod);
         else
             activeDrone.transform.localScale *= (shotScale);
