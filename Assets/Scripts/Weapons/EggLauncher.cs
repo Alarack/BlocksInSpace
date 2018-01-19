@@ -9,6 +9,11 @@ public class EggLauncher : Weapon {
     public GameObject baseEgg;
 
     protected void CreateEgg(Transform aimHelper = null) {
+
+        if (fireSound != null) {
+            fireSound.PlaySound();
+        }
+
         int randomEgg = Random.Range(0, potentialSpawns.Count);
 
         GameObject activeEgg = Instantiate(baseEgg, myShotOrigin.transform.position, myShotOrigin.transform.rotation) as GameObject;

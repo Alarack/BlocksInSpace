@@ -72,6 +72,16 @@ public class Laser : Weapon {
         if (!autoFire && (reticleTargetScript != null || parentReticleTargetScript != null)) {
             CleanUpLaser();
         }
+
+        if (laserMiddle.activeSelf) {
+            if (!SoundManager.IsLoopedSoundPlaying()) {
+                if(fireSound != null) {
+                    fireSound.PlaySound();
+                }
+            }
+        }else if (SoundManager.IsLoopedSoundPlaying()) {
+            SoundManager.StopLoopedSound();
+        }
     }
 
     void CleanUpLaser() {
