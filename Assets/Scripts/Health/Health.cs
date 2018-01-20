@@ -12,6 +12,14 @@ public class Health : MonoBehaviour {
     [Header("Optional Death Particle")]
     public GameObject deathExplosion;
 
+    [Header("General Health Sounds")]
+    public SoundEntry deathSound;
+    [Space(10)]
+    public bool playLowHeathWarningSound;
+    public SoundEntry lowHealthWarningSound;
+    public float warningSoundThreshold;
+
+
     protected float healthDifference;
     protected Color32 myColor;
     protected SpriteRenderer mySprite;
@@ -58,6 +66,11 @@ public class Health : MonoBehaviour {
         }
 
         healthDifference = curHealth / maxHealth;
+
+        if(playLowHeathWarningSound && lowHealthWarningSound != null) {
+            if (healthDifference <= warningSoundThreshold)
+                lowHealthWarningSound.PlaySound();
+        }
     }
 
     protected virtual IEnumerator DamageFlash(float color) {
@@ -108,6 +121,8 @@ public class Health : MonoBehaviour {
     }
 
     protected virtual void DeathFlair() {
+        PlayDeathSound();
+
         CameraController.ShakeCam(0.1f, 0.1f);
         deathExplosion = EnumList.ExplosionColor(GetComponent<Entity>().unitColor);
         GameObject activeBoom = Instantiate(deathExplosion, transform.position, transform.rotation) as GameObject;
@@ -128,6 +143,11 @@ public class Health : MonoBehaviour {
         }
 
         Destroy(activeBoom, 1f);
+    }
+
+    protected virtual void PlayDeathSound() {
+        if (deathSound != null)
+            deathSound.PlaySound();
     }
 
     public virtual void KillEntity() {

@@ -9,6 +9,8 @@ public class PlayerHealth : Health {
     private bool adjHealthBar;
     private bool isGameOver = false;
 
+
+
     protected override void Start() {
         healthTransform = GameObject.FindWithTag("PlayerHealthBar").transform as RectTransform;
         minXHealthValue = healthTransform.localPosition.x - healthTransform.rect.width;
