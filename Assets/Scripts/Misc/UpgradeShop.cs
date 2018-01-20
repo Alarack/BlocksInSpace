@@ -7,6 +7,8 @@ public class UpgradeShop : MonoBehaviour {
 
     public GameObject[] shopItems;
     public Transform[] itemLocations;
+    [Header("Sounds")]
+    public SoundEntry onOpenSound;
 
     private MasterSpawner spawnerScript;
 
@@ -15,6 +17,9 @@ public class UpgradeShop : MonoBehaviour {
     void OnEnable() {
         CleanUpOldItems();
         GenerateShopItems();
+
+        if (onOpenSound != null)
+            onOpenSound.PlaySound();
 
         if(spawnerScript != null)
             spawnerScript.beginSpawing = false;
